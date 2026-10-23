@@ -32,13 +32,23 @@
     .whatsapp{position:fixed;right:20px;bottom:20px;z-index:30;background:#16836b;color:white;border-radius:50px;padding:13px 17px;font-weight:900;box-shadow:0 8px 25px #07122544}.whatsapp:hover{background:#0d6a56}
     @media(max-width:850px){.menu-btn{display:block}.navlinks{display:none;position:absolute;top:78px;left:0;right:0;background:var(--navy);padding:20px 4%;flex-direction:column;align-items:flex-start;border-top:1px solid #35445d}.navlinks.open{display:flex}.nav .nav-cta{display:none}.service-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.quote-grid{grid-template-columns:1fr;gap:34px}.about-image img{height:370px}.image-note{left:12px}.steps{grid-template-columns:repeat(2,1fr)}.portfolio-grid{grid-template-columns:repeat(2,1fr)}.quote-copy{position:static}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}}
     @media(max-width:560px){.topbar .container{justify-content:center;text-align:center}.hero{min-height:560px}.hero-content{padding:70px 0}.trust-row{grid-template-columns:1fr;gap:8px}.trust-row span{justify-content:flex-start}.service-grid,.steps,.portfolio-grid,.form-grid,.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}section{padding:64px 0}.service-card img{height:180px}.about-image img{height:300px}.cta-row{align-items:flex-start;flex-direction:column}form{padding:20px}.whatsapp{right:12px;bottom:12px;padding:11px 14px;font-size:.9rem}}
+ .brand img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
+}
   </style>
+<link rel="icon" type="image/png" href="five-solaris-logo.png">
 </head>
 <body>
   <div class="topbar"><div class="container"><span>Electrical & Solar Solutions</span><span>Serving Cebu and nearby areas · By appointment</span></div></div>
   <header>
     <div class="container nav">
-      <a class="brand" href="#home" aria-label="Five Solaris home"><span class="logo">5</span><span>FIVE SOLARIS<small>ELECTRICAL & SOLAR SOLUTIONS</small></span></a>
+     <a class="brand" href="#">
+  <img src="five-solaris-logo.png" alt="Five Solaris logo">
+  <span>Five Solaris</span>
+</a>
       <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
       <nav class="navlinks" id="navlinks"><a href="#services">Services</a><a href="#about">About Us</a><a href="#process">How It Works</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
       <a class="btn btn-gold nav-cta" href="#contact">Request a Quote ↗</a>
